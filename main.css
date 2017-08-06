@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*width: 20px;
+  height: 40px;*/
+}
+
+.wrapper{
+  margin: 0px;
+  padding: 0px;
+}
+
+.Calculator{
+  /*height: 500px;
+  width: 400px;*/
+  text-align: center;
+}
+
+#operator td{
+  background-color: black;
+}
+
+td{
+  background-color: green;
+  border: 1px solid #ffffff;
+  margin: 1px;
+  height: 100px;
+  width: 100px;
+  padding
+}
