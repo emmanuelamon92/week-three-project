@@ -1,31 +1,27 @@
 body{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  /*width: 20px;
-  height: 40px;*/
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  font-size: 0px;
 }
 
-.wrapper{
-  margin: 0px;
-  padding: 0px;
-}
-
-.Calculator{
-  /*height: 500px;
-  width: 400px;*/
-  text-align: center;
-}
-
-#operator td{
-  background-color: black;
-}
-
-td{
-  background-color: green;
-  border: 1px solid #ffffff;
-  margin: 1px;
+button{
   height: 100px;
   width: 100px;
-  padding
+  background-color: green;
+  border: none;
+  border: .5px solid lightgreen;
+}
+
+button
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input{
+  height: 100px;
+  width: 300px;
 }
