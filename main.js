@@ -26,7 +26,7 @@ function clear(zeroOut) {
 }
 
 function equals(){
-    previousNumber = pickedNumber;
+    // previousNumber = pickedNumber;
     let answer = "";
   if(operator == 1){
    answer = eval(pickedNumber) * eval(previousNumber);
@@ -47,7 +47,6 @@ function equals(){
   console.log("answer", answer);
   console.log("operator1", operator);
   return answer;
-
 }
 
 
