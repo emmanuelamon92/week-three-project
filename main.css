@@ -1,55 +1,21 @@
-body{
-  display: flex;
-  justify-content: center;
-  margin-top: 90px;
-  font-size: 0px;
-}
-
 form{
   display: flex;
   flex-direction: column;
 }
 
-
-#operators1, #operators2, #operators3, #operators4, .clearInput{
-  display: flex;
-  flex-direction: row;
-}
-
-button{
-  height: 100px;
-  width: 100px;
-}
-
 input{
-  width: 300px;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  background-color: grey;
-  font-size: 75px;
-}
-
-/*.clearInput{
-
-}*/
-
-/*form{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}*/
-
-/*.clearInput{
   height: 100px;
   width: 100px;
-  margin: 0;
-  background-color: green;
-  border: none;
-  border: .5px solid lightgreen;
+  border: 1px solid black;
+}
 
-}*/
-/*input{
-  height: 100px;
-  width: 300px;
-}*/
+#inputDisplay{
+  text-align: right;
+  /*width: 75%;*/
+  /*height: 100px;*/
+  /*padding-right: 50px;*/
+}
+
+#operator{
+  /*width: 435px;*/
+}
